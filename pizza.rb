@@ -1,12 +1,12 @@
 class Pizza < Formula
   desc ""
   homepage "https://github.com/hjorthjort/pizza"
-  url "https://github.com/hjorthjort/pizza/archive/0.1.0.tar.gz"
-  version "0.1.0"
-  sha256 "b0cb66935cee47347f67634737560dda1deb779854b97e9e3812bdcce45b04e9"
+  url "https://github.com/hjorthjort/pizza/archive/0.2.0.tar.gz"
+  version "0.2.0"
+  sha256 "47622e333198e0a9e44d2858d98b2bf07a14f5c05baead209a94fce5e6a56f25"
 
   def install
-      bin.install "meat", "sauce", "vegetarian", "pizza"
+      bin.install "cities", "meat", "sauce", "vegetarian", "pizza"
   end
 
   test do
