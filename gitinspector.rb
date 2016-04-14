@@ -7,7 +7,7 @@ class Gitinspector < Formula
 
   def install
     libexec.install Dir["*"]
-
     bin.install_symlink libexec/"gitinspector/gitinspector.py"
+    system "mv", bin/"gitinspector.py", bin/"gitinspector" 
   end
 end
